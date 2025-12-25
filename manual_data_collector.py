@@ -18,7 +18,7 @@ while cap.isOpened():
     if not ret:
         break
 
-    cv2.imshow("Data Collection - Press Space to Capture", frame)
+    cv2.imshow("Manual Data Collection - Window", frame)
     
     k = cv2.waitKey(1)
     if k % 256 == 27:
